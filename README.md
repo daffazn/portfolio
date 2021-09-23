@@ -1,22 +1,36 @@
 # Data Analysis Projects
 
-This repository contains individual projects that demonstrate my ability to use various tools and programming languages for data analysis. Most of these projects contain the process of data extraction, wrangling, cleaning, manipulation, exploration, and visualization. This repository will continue to be updated over time, either by addition of a new project or by the update of the existing project.
+This repository contains individual projects that demonstrate my ability to use various tools and programming languages for data analysis. Most of these projects have the process of data extraction, wrangling, cleaning, manipulation, exploration, and visualization. This repository will continue to be updated over time, either by adding a new project or by updating the existing project.
 
-I use Jupyter Notebook to show my work, except for the project that use Tableau.
+I use Jupyter Notebook to show my work, except for the project that uses Tableau.
 
-## Historical Airplane Accident Analysis
-I web-scraped historical airplane accident data from planecrashinfo.com, which contains details of +5,000 accidents from 1908 until 2021. I use Python with the help of NumPy, Pandas, and Matplotlib libraries to do all the work.
+**More details of each project are in each repository.**
 
-## Twitter Keyword Analysis
-I extracted +300,000 tweets containing keyword of Cristiano or Ronaldo (or both) at the day of his first match with Manchester United after his return. I use Tweepy Python library to access the Twitter API. The latest Tweepy stable release can only access the Twitter API v1.1, but I wanted to access the v2 because it gives more detalis about the tweet. So I decided to use the latest beta version of Tweepy.
+## Google Play Store Market Analysis (Python)
+•	Using a Kaggle’s dataset that consists of public metrics of the 10,000+ apps from Google Play Store<br>
+•	Conducting data cleaning and data wrangling using NumPy and Pandas to get a more accurate analysis<br>
+•	Performing univariate, bivariate, and multivariate visualization using Matplotlib and Seaborn to find insights<br>
 
-I found an error when I was requesting specific data queries for the tweets. After exploring the library's code, I found the source of error and modify the code. So in the end, I used this modified library to extract the tweets. I also have included the modified file in this repository.
+## European Soccer Analysis (SQL)
+•	Using a Kaggle’s dataset that consists of details related to 25,000+ European Soccer matches<br>
+•	Preparing the data and migrate it to the PostgreSQL database using Python’s SQLAlchemy<br>
+•	Conducting different kinds of SQL queries to demonstrate ways to get insights and answer questions<br>
 
-## European Soccer Analysis
-I used a Kaggle’s dataset that consists of 25,000+ match details of European soccer leagues and other things related to it, from 2008 season until 2016. The data originally is in the form of an SQLite file (.sqlite). I migrated it to PostgreSQL database using Python’s SQLAlchemy and prepared the data using Pandas. Then I made the queries in PostgreSQL dialect. I also utilize Python so I can show the query results in Jupyter Notebook.
+## Historical Airplane Accident Analysis (Python)
+•	Web scraping 5,000+ data about historical airplane accidents from multiple web pages<br>
+•	Wrangling and manipulating the data using NumPy and Pandas to get a more accurate analysis<br>
+•	Conducting data exploration to find insights and doing simple visualization using Matplotlib<br>
 
-## COVID-19 Data Analysis
-I used a dataset from Our World in Data that consists of 100,000+ data of daily pandemic information in every country, then I made a Tableau dashboard out of it.
+## COVID-19 Data Dashboard (Tableau)
+•	Using a dataset from data.world that consists of 100,000+ data of daily pandemic information in every country<br>
+•	Connecting Tableau’s workbook to the data.world using Web Data Connector to get real-time data<br>
+•	Making a Tableau dashboard containing interactive visualizations like density map, time-series plot, bar, etc<br>
 
-## Police Activity Analysis
-I used Stanford Open Policing dataset that consists of 500,000+ traffic stops details conducted by the police in State of Rhode Island in the US. I use Python with the help of NumPy, Pandas, and Matplotlib libraries to do all the work.
+## Twitter Keyword Analysis (Python)
+•	Extracting 300,000+ tweets containing a keyword using a modified library to access the Twitter API v2<br>
+•	Using time distribution and words frequency analysis to find insights about reactions caused by an event<br>
+•	Performing simple sentiment analysis for every data to determine its positive or negative polarity<br>
+
+## Police Activity Analysis (Python)
+•	Using a Stanford Open Policing dataset that consists of 500,000+ traffic stops details conducted by the police<br>
+•	Doing simple exploratory data analysis using Pandas and Matplotlib to answer some questions<br>
